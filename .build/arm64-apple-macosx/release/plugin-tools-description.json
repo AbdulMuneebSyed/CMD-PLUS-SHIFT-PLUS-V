@@ -1,0 +1,373 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CopyOnScreenShot-arm64-apple-macosx-release.module" : {
+      "executable" : "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "fileList" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/sources",
+      "importPath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/HotKeyMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/PasteCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/Preferences.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ScreenshotWatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "CopyOnScreenShot",
+      "moduleOutputPath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/Modules/CopyOnScreenShot.swiftmodule",
+      "objects" : [
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/AppDelegate.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardHistoryStore.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardHistoryWindowController.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardItem.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/HotKeyMonitor.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/PasteCoordinator.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/Preferences.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ScreenshotWatcher.swift.o",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/main.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "8",
+        "-serialize-diagnostics",
+        "-O",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "CopyOnScreenShot_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "6",
+        "-I",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-L",
+        "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+        "-plugin-path",
+        "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "copy_on_screenshot"
+      ],
+      "outputFileMapPath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardHistoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardHistoryWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/HotKeyMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/PasteCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/Preferences.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ScreenshotWatcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/Modules/CopyOnScreenShot.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/AppDelegate.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryStore.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryWindowController.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardItem.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/HotKeyMonitor.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/PasteCoordinator.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/Preferences.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ScreenshotWatcher.swift",
+        "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/main.swift"
+      ],
+      "tempsPath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CopyOnScreenShot" : [
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc",
+      "-module-name",
+      "CopyOnScreenShot",
+      "-package-name",
+      "copy_on_screenshot",
+      "-c",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/AppDelegate.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryStore.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryWindowController.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardItem.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/HotKeyMonitor.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/PasteCoordinator.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/Preferences.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ScreenshotWatcher.swift",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/main.swift",
+      "-I",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "8",
+      "-serialize-diagnostics",
+      "-O",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "CopyOnScreenShot_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "6",
+      "-I",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-L",
+      "/Library/Developer/CommandLineTools/Library/Developer/Frameworks",
+      "-plugin-path",
+      "/Library/Developer/CommandLineTools/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "copy_on_screenshot",
+      "-driver-use-frontend-path",
+      "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CopyOnScreenShot" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/AppDelegate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryStore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardHistoryWindowController.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ClipboardItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/HotKeyMonitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/PasteCoordinator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/Preferences.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/ScreenshotWatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/Sources/CopyOnScreenShot/main.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/sources"
+    },
+    "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/AppDelegate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardHistoryStore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardHistoryWindowController.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ClipboardItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/HotKeyMonitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/PasteCoordinator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/Preferences.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/ScreenshotWatcher.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.build/main.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/CopyOnScreenShot.product/Objects.LinkFileList"
+    },
+    "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Library/Developer/CommandLineTools/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/muneeb/Desktop/Copy-On-ScreenShot/.build/arm64-apple-macosx/release/swift-version--1AB21518FC5DEDBE.txt"
+    }
+  }
+}
